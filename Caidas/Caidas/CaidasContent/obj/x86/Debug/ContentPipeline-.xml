@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\bin\x86\Debug\Content\flor.xnb</Output>
-      <Time>2016-09-07T16:45:49.9151091-03:00</Time>
+      <Output>D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\flor.xnb</Output>
+      <Time>2016-09-07T16:45:50-03:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -17,10 +17,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>D:\Users\41614549\Desktop\Caidas\Caidas\CaidasContent\</RootDirectory>
-      <LoggerRootDirectory>D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\</LoggerRootDirectory>
-      <IntermediateDirectory>D:\Users\41614549\Desktop\Caidas\Caidas\CaidasContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\CaidasContent\</RootDirectory>
+      <LoggerRootDirectory>D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\Caidas\</LoggerRootDirectory>
+      <IntermediateDirectory>D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\CaidasContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
