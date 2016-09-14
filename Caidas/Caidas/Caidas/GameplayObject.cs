@@ -15,6 +15,7 @@ namespace Caidas
     }
     public class GameplayObject
     {
+        int cosa = 0;
         #region Status Data
         /// <summary>
         /// The current status of the game object.  No public set since this should all be done internally
@@ -118,7 +119,9 @@ namespace Caidas
         /// <summary>
         /// The location of the game object in the game world
         /// </summary>
-        Vector2 position = Vector2.Zero;
+        Vector2 position=Vector2.Zero;
+       
+        
         public Vector2 Position
         {
             get { return position; }
@@ -312,7 +315,14 @@ namespace Caidas
             {
                 if (texture != null)
                 {
-                    spriteBatch.Draw(texture, position, null, Color, rotation, Origin, 1.0f, SpriteEffects.None, 0.0f);
+                   
+                    //spriteBatch.Draw(texture, position, null, Color, rotation, Origin, 1.0f, SpriteEffects.None, 0.0f);
+                   
+                    cosa++;
+                   spriteBatch.Draw(texture, new Vector2(100, cosa), null, Color, rotation, Origin, 1.0f, SpriteEffects.None, 0.0f);
+                    //spriteBatch.Draw(texture, new Vector2(100, cosa), Microsoft.Xna.Framework.Color.White);
+                    //spriteBatch.Draw(texture, new Vector2(100, cosa), null, Color, rotation, Origin, 1.0f, SpriteEffects.None, 0.0f);
+                    
                 }
             }
         }

@@ -10,6 +10,51 @@
       <Output>D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\flor.xnb</Output>
       <Time>2016-09-07T16:45:50-03:00</Time>
     </Item>
+    <Item>
+      <Source>mouse_v2.png</Source>
+      <Name>mouse_v2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\mouse_v2.xnb</Output>
+      <Time>2012-06-04T17:59:40-03:00</Time>
+    </Item>
+    <Item>
+      <Source>sprite-clicked.png</Source>
+      <Name>sprite-clicked</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\sprite-clicked.xnb</Output>
+      <Time>2012-06-04T17:59:40-03:00</Time>
+    </Item>
+    <Item>
+      <Source>sprite.png</Source>
+      <Name>sprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\sprite.xnb</Output>
+      <Time>2012-06-04T17:59:40-03:00</Time>
+    </Item>
+    <Item>
+      <Source>a.png</Source>
+      <Name>a</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\a.xnb</Output>
+      <Time>2016-09-14T15:13:26.7655143-03:00</Time>
+    </Item>
+    <Item>
+      <Source>mouse-arrow.png</Source>
+      <Name>mouse-arrow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\mouse-arrow.xnb</Output>
+      <Time>2016-09-14T15:16:40.0432758-03:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID Null="true" />

@@ -9,6 +9,7 @@ namespace Caidas
     public class ClickablePlayer : ClickableGameplayObject
     {
         Random random;
+        int cosa = 0;
         public Texture2D ClickedTexture
         {
             get;
@@ -30,13 +31,13 @@ namespace Caidas
 
             Alpha = 1.0f;
 
-            Rotation += 0.01f;
+           // Rotation += 0.01f;
         }
 
         public override void OnLeave()
         {
             base.OnLeave();
-
+            
             Alpha = 0.5f;
         }
 
@@ -45,6 +46,7 @@ namespace Caidas
             base.OnLeftClick();
 
             Position = new Microsoft.Xna.Framework.Vector2(ActiveMouse.Position.X, ActiveMouse.Position.Y);
+            
         }
 
         public override void OnHeldLeftClick()

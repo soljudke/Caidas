@@ -18,17 +18,17 @@ namespace Caidas
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        Texture2D flor;
-        Rectangle recFlor;
-        int cosa = 0;
-        int cosa2 = 0;
+        //Texture2D flor;
+        //Rectangle recFlor;
+       // int cosa = 0;
+       // int cosa2 = 0;
         ClickablePlayer player, friend;
         List<ClickablePlayer> clickableObjects;
-        Mouse mouse=new Mouse();
+        Mouse mouse;
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
-            graphics.IsFullScreen = true;
+           // graphics.IsFullScreen = true;
             Content.RootDirectory = "Content";
         }
 
@@ -41,11 +41,12 @@ namespace Caidas
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            IsMouseVisible = true;
+            //IsMouseVisible = true;
+
             player = new ClickablePlayer();
             friend = new ClickablePlayer();
-            player.Rotation = MathHelper.ToRadians(-90);
-            friend.Rotation = MathHelper.ToRadians(90);
+           // player.Rotation = MathHelper.ToRadians(-90);
+           // friend.Rotation = MathHelper.ToRadians(90);
 
             clickableObjects = new List<ClickablePlayer>(10);
             base.Initialize();
@@ -59,12 +60,20 @@ namespace Caidas
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            //flor = this.Content.Load<Texture2D>("flor");
-            player.Texture = Content.Load<Texture2D>("flor");
+
+            // TODO: use this.Content to load your game content here
+            mouse = new Mouse(Content.Load<Texture2D>("mouse-arrow"));
+
+            player.Texture = Content.Load<Texture2D>("a");
+            friend.Texture = Content.Load<Texture2D>("sprite-clicked");
+            player.ClickedTexture = Content.Load<Texture2D>("sprite-clicked");
+            friend.ClickedTexture = Content.Load<Texture2D>("sprite");
             player.Position = new Vector2(0 + player.Origin.Y,
                 GraphicsDevice.Viewport.Height - player.Rectangle.Height - player.Origin.X);
+            friend.Position = new Vector2(GraphicsDevice.Viewport.Width / 2, GraphicsDevice.Viewport.Height / 2);
+
             clickableObjects.Add(player);
-            // TODO: use this.Content to load your game content here
+            clickableObjects.Add(friend);
         }
 
         /// <summary>
@@ -90,14 +99,46 @@ namespace Caidas
             // TODO: Add your update logic here
             mouse.Update();
 
-            cosa2++;
-            recFlor = new Rectangle(100, cosa2, flor.Width, flor.Height);
-           
+            PerformMouseInteractions(gameTime);
+            PerformNormalUpdate(gameTime);
             if (Keyboard.GetState().IsKeyDown(Keys.Escape))
                 this.Exit();
+           
             base.Update(gameTime);
+            //cosa2++;
+            //recFlor = new Rectangle(100, cosa2, flor.Width, flor.Height);
+           
+          
         }
-
+        private void PerformNormalUpdate(GameTime gameTime)
+        {
+            foreach (ClickableGameplayObject cgo in clickableObjects)
+            {
+                if (cgo != mouse.ClickedObject)
+                {
+                    cgo.Update(gameTime);
+                }
+            }
+        }
+        private void PerformMouseInteractions(GameTime gameTime)
+        {
+            foreach (ClickableGameplayObject cgo in clickableObjects)
+            {
+                if (mouse.ClickedObject == null)
+                {
+                    cgo.Update(gameTime, mouse);
+                    if (cgo.ActiveMouse != null)
+                    {
+                        return;
+                    }
+                }
+                else
+                {
+                    mouse.ClickedObject.Update(gameTime, mouse);
+                    return;
+                }
+            }
+        }
         /// <summary>
         /// This is called when the game should draw itself.
         /// </summary>
@@ -105,13 +146,16 @@ namespace Caidas
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
-            spriteBatch.Begin();
-            cosa++;
-            spriteBatch.Draw(flor, new Vector2(100,cosa), Color.White);
 
-            spriteBatch.End();
             // TODO: Add your drawing code here
+            spriteBatch.Begin();
+           // cosa++;
 
+            player.Draw(gameTime, spriteBatch);
+            friend.Draw(gameTime, spriteBatch);
+            spriteBatch.End();
+
+            mouse.Draw(spriteBatch);
             base.Draw(gameTime);
         }
     }

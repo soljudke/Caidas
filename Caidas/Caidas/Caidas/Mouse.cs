@@ -9,6 +9,9 @@ using Microsoft.Xna.Framework.Content;
 
 namespace Caidas
 {
+    /// <summary>
+    /// Class to handle mouse presses and drawing
+    /// </summary>
     public class Mouse
     {
         /// <summary>

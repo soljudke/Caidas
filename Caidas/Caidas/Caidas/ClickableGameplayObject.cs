@@ -39,7 +39,7 @@ namespace Caidas
         {
             LeftState = RightState = ObjectClickedState.Normal;
         }
-
+        
         public virtual void OnLeftClick() { }
         public virtual void OnHeldLeftClick() { }
         public virtual void OnLeftRelease() { }
@@ -48,7 +48,6 @@ namespace Caidas
         public virtual void OnHeldRightClick() { }
         public virtual void OnRightRelease() { }
         public virtual void OnRightNormal() { }
-
         public virtual void OnHover() { }
         public virtual void OnLeave() { }
 
