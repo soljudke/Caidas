@@ -18,10 +18,13 @@ namespace Caidas
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        //Texture2D flor;
-        //Rectangle recFlor;
-       // int cosa = 0;
-       // int cosa2 = 0;
+        Texture2D caja;
+        Texture2D letra;
+        Rectangle recCaja;
+        Rectangle recPlayer;
+        int cosa = 0;
+        bool noDraw = false;
+        int cosa2 = 0;
         ClickablePlayer player, friend;
         List<ClickablePlayer> clickableObjects;
         Mouse mouse;
@@ -41,7 +44,7 @@ namespace Caidas
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            //IsMouseVisible = true;
+            IsMouseVisible = true;
 
             player = new ClickablePlayer();
             friend = new ClickablePlayer();
@@ -62,9 +65,10 @@ namespace Caidas
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
-            mouse = new Mouse(Content.Load<Texture2D>("mouse-arrow"));
-
-            player.Texture = Content.Load<Texture2D>("a");
+           // mouse = new Mouse(Content.Load<Texture2D>("mouse-arrow"));
+            caja = Content.Load<Texture2D>("caja");
+            letra = Content.Load<Texture2D>("a");
+            /*player.Texture = Content.Load<Texture2D>("a");
             friend.Texture = Content.Load<Texture2D>("sprite-clicked");
             player.ClickedTexture = Content.Load<Texture2D>("sprite-clicked");
             friend.ClickedTexture = Content.Load<Texture2D>("sprite");
@@ -73,7 +77,7 @@ namespace Caidas
             friend.Position = new Vector2(GraphicsDevice.Viewport.Width / 2, GraphicsDevice.Viewport.Height / 2);
 
             clickableObjects.Add(player);
-            clickableObjects.Add(friend);
+            clickableObjects.Add(friend);*/
         }
 
         /// <summary>
@@ -97,7 +101,14 @@ namespace Caidas
                 this.Exit();
 
             // TODO: Add your update logic here
-            mouse.Update();
+            cosa2++;
+            recCaja = new Rectangle(100, 350, caja.Width, caja.Height);
+            recPlayer = new Rectangle(100, cosa2, letra.Width, letra.Height);
+            if (recPlayer.Intersects(recCaja))
+            {
+                noDraw = true;
+            }
+            //mouse.Update();
 
             PerformMouseInteractions(gameTime);
             PerformNormalUpdate(gameTime);
@@ -151,11 +162,18 @@ namespace Caidas
             spriteBatch.Begin();
            // cosa++;
 
-            player.Draw(gameTime, spriteBatch);
-            friend.Draw(gameTime, spriteBatch);
+            //player.Draw(gameTime, spriteBatch);
+           // friend.Draw(gameTime, spriteBatch);
+            
+            cosa++;
+            if (noDraw==false)
+            {
+                spriteBatch.Draw(letra, new Vector2(100, cosa), Color.White); 
+            }
+            
+            spriteBatch.Draw(caja, new Vector2(100, 350), Color.White);
             spriteBatch.End();
-
-            mouse.Draw(spriteBatch);
+            //mouse.Draw(spriteBatch);
             base.Draw(gameTime);
         }
     }

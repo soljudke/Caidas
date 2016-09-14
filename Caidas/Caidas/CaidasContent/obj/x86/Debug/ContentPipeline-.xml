@@ -55,6 +55,15 @@
       <Output>D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\mouse-arrow.xnb</Output>
       <Time>2016-09-14T15:16:40.0432758-03:00</Time>
     </Item>
+    <Item>
+      <Source>caja.png</Source>
+      <Name>caja</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\caja.xnb</Output>
+      <Time>2016-09-14T17:05:33.9775166-03:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID Null="true" />
