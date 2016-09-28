@@ -18,3 +18,16 @@ D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\spri
 D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\a.xnb
 D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\mouse-arrow.xnb
 D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\caja.xnb
+D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\flor.xnb
+D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\mouse_v2.xnb
+D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\sprite-clicked.xnb
+D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\sprite.xnb
+D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\a.xnb
+D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\mouse-arrow.xnb
+D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\caja.xnb
+D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Caidas.exe
+D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Caidas.pdb
+D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\obj\x86\Debug\Caidas.csprojResolveAssemblyReference.cache
+D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\obj\x86\Debug\Caidas.exe
+D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\obj\x86\Debug\Caidas.pdb

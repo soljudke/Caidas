@@ -6,12 +6,8 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Content;
-
 namespace Caidas
 {
-    /// <summary>
-    /// Class to handle mouse presses and drawing
-    /// </summary>
     public class Mouse
     {
         /// <summary>
@@ -137,11 +133,12 @@ namespace Caidas
         /// <summary>
         /// Gets a new mouse state and changes the position and rectangle
         /// </summary>
+        public Vector2 miPosi;
         public void Update()
         {
             previousState = currentState;
             currentState = Microsoft.Xna.Framework.Input.Mouse.GetState();
-
+            miPosi = Position;
             Position = new Vector2(currentState.X, currentState.Y);
             Rectangle = new Rectangle((int)Position.X, (int)Position.Y, texture.Width, texture.Height);
         }

@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\flor.xnb</Output>
-      <Time>2016-09-07T16:45:50-03:00</Time>
+      <Output>D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\flor.xnb</Output>
+      <Time>2016-09-28T13:33:40.2540812-03:00</Time>
     </Item>
     <Item>
       <Source>mouse_v2.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\mouse_v2.xnb</Output>
-      <Time>2012-06-04T17:59:40-03:00</Time>
+      <Output>D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\mouse_v2.xnb</Output>
+      <Time>2016-09-28T13:33:40.2580846-03:00</Time>
     </Item>
     <Item>
       <Source>sprite-clicked.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\sprite-clicked.xnb</Output>
-      <Time>2012-06-04T17:59:40-03:00</Time>
+      <Output>D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\sprite-clicked.xnb</Output>
+      <Time>2016-09-28T13:33:40.2791562-03:00</Time>
     </Item>
     <Item>
       <Source>sprite.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\sprite.xnb</Output>
-      <Time>2012-06-04T17:59:40-03:00</Time>
+      <Output>D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\sprite.xnb</Output>
+      <Time>2016-09-28T13:33:40.2791562-03:00</Time>
     </Item>
     <Item>
       <Source>a.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\a.xnb</Output>
-      <Time>2016-09-14T15:13:26.7655143-03:00</Time>
+      <Output>D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\a.xnb</Output>
+      <Time>2016-09-28T13:33:40.2500785-03:00</Time>
     </Item>
     <Item>
       <Source>mouse-arrow.png</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\mouse-arrow.xnb</Output>
-      <Time>2016-09-14T15:16:40.0432758-03:00</Time>
+      <Output>D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\mouse-arrow.xnb</Output>
+      <Time>2016-09-28T13:33:40.2570841-03:00</Time>
     </Item>
     <Item>
       <Source>caja.png</Source>
@@ -61,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\caja.xnb</Output>
-      <Time>2016-09-14T17:05:33.9775166-03:00</Time>
+      <Output>D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\caja.xnb</Output>
+      <Time>2016-09-28T13:33:40.2510787-03:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -71,10 +71,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\CaidasContent\</RootDirectory>
-      <LoggerRootDirectory>D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\Caidas\</LoggerRootDirectory>
-      <IntermediateDirectory>D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\CaidasContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\CaidasContent\</RootDirectory>
+      <LoggerRootDirectory>D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\</LoggerRootDirectory>
+      <IntermediateDirectory>D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\CaidasContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
