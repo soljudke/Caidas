@@ -18,3 +18,16 @@ D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\spri
 D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\a.xnb
 D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\mouse-arrow.xnb
 D:\Users\41614549\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\caja.xnb
+C:\Users\c\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\flor.xnb
+C:\Users\c\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\mouse_v2.xnb
+C:\Users\c\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\sprite-clicked.xnb
+C:\Users\c\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\sprite.xnb
+C:\Users\c\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\a.xnb
+C:\Users\c\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\mouse-arrow.xnb
+C:\Users\c\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\caja.xnb
+C:\Users\c\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Caidas.exe
+C:\Users\c\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Caidas.pdb
+C:\Users\c\Desktop\Caidas\Caidas\Caidas\Caidas\obj\x86\Debug\Caidas.csprojResolveAssemblyReference.cache
+C:\Users\c\Desktop\Caidas\Caidas\Caidas\Caidas\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\c\Desktop\Caidas\Caidas\Caidas\Caidas\obj\x86\Debug\Caidas.exe
+C:\Users\c\Desktop\Caidas\Caidas\Caidas\Caidas\obj\x86\Debug\Caidas.pdb
