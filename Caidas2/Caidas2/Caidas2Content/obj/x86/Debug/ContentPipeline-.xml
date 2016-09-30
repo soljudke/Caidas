@@ -2,58 +2,13 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>flor.jpg</Source>
-      <Name>flor</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\flor.xnb</Output>
-      <Time>2016-09-28T13:33:40.2540812-03:00</Time>
-    </Item>
-    <Item>
-      <Source>mouse_v2.png</Source>
-      <Name>mouse_v2</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\mouse_v2.xnb</Output>
-      <Time>2016-09-28T13:33:40.2580846-03:00</Time>
-    </Item>
-    <Item>
-      <Source>sprite-clicked.png</Source>
-      <Name>sprite-clicked</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\sprite-clicked.xnb</Output>
-      <Time>2016-09-28T13:33:40.2791562-03:00</Time>
-    </Item>
-    <Item>
-      <Source>sprite.png</Source>
-      <Name>sprite</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\sprite.xnb</Output>
-      <Time>2016-09-28T13:33:40.2791562-03:00</Time>
-    </Item>
-    <Item>
       <Source>a.png</Source>
       <Name>a</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\a.xnb</Output>
+      <Output>D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\a.xnb</Output>
       <Time>2016-09-28T13:33:40.2500785-03:00</Time>
-    </Item>
-    <Item>
-      <Source>mouse-arrow.png</Source>
-      <Name>mouse-arrow</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\mouse-arrow.xnb</Output>
-      <Time>2016-09-28T13:33:40.2570841-03:00</Time>
     </Item>
     <Item>
       <Source>caja.png</Source>
@@ -61,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\caja.xnb</Output>
+      <Output>D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\caja.xnb</Output>
       <Time>2016-09-28T13:33:40.2510787-03:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -71,10 +26,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\CaidasContent\</RootDirectory>
-      <LoggerRootDirectory>D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\</LoggerRootDirectory>
-      <IntermediateDirectory>D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\CaidasContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas\Caidas\Caidas\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas2\Caidas2\Caidas2Content\</RootDirectory>
+      <LoggerRootDirectory>D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas2\Caidas2\Caidas2\</LoggerRootDirectory>
+      <IntermediateDirectory>D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas2\Caidas2\Caidas2Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
-
+using Microsoft.Xna.Framework.Input;
 namespace Caidas
 {
     public enum ObjectStatus
@@ -226,12 +226,14 @@ namespace Caidas
         /// rotation, scale, and position.  This will need to be done every
         /// game loop because chances are the position changed.
         /// </summary>
+
         private void CalculateMatrix()
         {
             Transform = Matrix.CreateTranslation(new Vector3(-Origin, 0)) *
                 Matrix.CreateRotationZ(rotation) *
                 Matrix.CreateScale(1.0f) *
                 Matrix.CreateTranslation(new Vector3(position, 0));
+
         }
 
         /// <summary>
@@ -315,18 +317,32 @@ namespace Caidas
             {
                 if (texture != null)
                 {
-                   
                     //spriteBatch.Draw(texture, position, null, Color, rotation, Origin, 1.0f, SpriteEffects.None, 0.0f);
-                   
-                    cosa++;
-                    spriteBatch.Draw(texture, new Vector2(100, cosa), null, Color, rotation, Origin, 1.0f, SpriteEffects.None, 0.0f);
-                    //spriteBatch.Draw(texture, new Vector2(100, cosa), Microsoft.Xna.Framework.Color.White);
-                    //spriteBatch.Draw(texture, new Vector2(100, cosa), null, Color, rotation, Origin, 1.0f, SpriteEffects.None, 0.0f);
+                    MouseState currentState;
+                    currentState = Microsoft.Xna.Framework.Input.Mouse.GetState();
+                    Vector2 posi= new Vector2(currentState.X, currentState.Y);
+                    Mouse esta=new Mouse();
+
+                    spriteBatch.Draw(texture, position, null, Color, rotation, Origin, 1.0f, SpriteEffects.None, 0.0f);
+                    recPlayer = new Rectangle(100, cosa, texture.Width, texture.Height);
                     
                 }
             }
         }
-
+        Vector2 miVector;
+        public static Rectangle recPlayer;
+        public virtual void DrawNo(GameTime gameTime, SpriteBatch spriteBatch)
+        {
+            if (spriteBatch != null)
+            {
+                if (texture != null)
+                {
+                    cosa++;
+                    spriteBatch.Draw(texture, new Vector2(100, cosa), null, Color, rotation, Origin, 1.0f, SpriteEffects.None, 0.0f);
+                    recPlayer = new Rectangle(100, cosa, texture.Width, texture.Height);
+                }
+            }
+        }
         public void DrawBounds(GameTime gameTime, SpriteBatch spriteBatch)
         {
             if (spriteBatch != null)
