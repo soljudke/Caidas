@@ -22,13 +22,21 @@ namespace Caidas2
         Texture2D repeat;
         Texture2D letra;
         Texture2D bien;
+<<<<<<< HEAD
+        Texture2D otraCaja;
+        Texture2D mal;
         Rectangle recCaja;
+        Rectangle recCaja2;
+=======
+        Rectangle recCaja;
+>>>>>>> origin/master
         Rectangle recRepeat;
         Rectangle recPlayer;
         int cosa = 0;
         int flag = 0;
         int pressedX, pressedY;
         bool noDraw = false;
+        bool malTocado = false;
         bool clicked = false;
         int cosa2 = 0;
         MouseState currentMouseState;
@@ -63,8 +71,14 @@ namespace Caidas2
 
             // TODO: use this.Content to load your game content here
             caja = Content.Load<Texture2D>("caja");
+<<<<<<< HEAD
+            repeat= Content.Load<Texture2D>("repeat");
+            otraCaja = Content.Load<Texture2D>("caja2");
+            mal = Content.Load<Texture2D>("cancel");
+=======
               repeat= Content.Load<Texture2D>("repeat");
 
+>>>>>>> origin/master
             letra = Content.Load<Texture2D>("a");
             bien = Content.Load<Texture2D>("Bien");
         }
@@ -117,11 +131,19 @@ namespace Caidas2
                 cosa = 0;
                 cosa2 = 0;
                 noDraw = false;
+<<<<<<< HEAD
+                malTocado = false;
+=======
+>>>>>>> origin/master
                 clicked = false;
             }
             // TODO: Add your update logic here
             cosa2++;
             recCaja = new Rectangle(100, 350, caja.Width, caja.Height);
+<<<<<<< HEAD
+            recCaja2 = new Rectangle(200, 350, caja.Width, caja.Height);
+=======
+>>>>>>> origin/master
             recRepeat = new Rectangle(500, 10,repeat.Width,repeat.Height);
             if (clicked)
             {
@@ -145,6 +167,13 @@ namespace Caidas2
             {
                 noDraw = true;
             }
+<<<<<<< HEAD
+            if (recCaja2.Intersects(recPlayer))
+            {
+                malTocado = true;
+            }
+=======
+>>>>>>> origin/master
             if (cosa == 400)
             {
                 cosa = 0;
@@ -152,6 +181,10 @@ namespace Caidas2
                 cosa2 = 0;
                 GraphicsDevice.Clear(Color.CornflowerBlue);
                 noDraw = false;
+<<<<<<< HEAD
+                malTocado = false;
+=======
+>>>>>>> origin/master
             }
             if (Keyboard.GetState().IsKeyDown(Keys.Escape))
                 this.Exit();
@@ -170,7 +203,11 @@ namespace Caidas2
             
             // TODO: Add your drawing code here
             spriteBatch.Begin();
+<<<<<<< HEAD
+            if (!noDraw && !malTocado)
+=======
             if (!noDraw)
+>>>>>>> origin/master
             {
                 if (clicked)
                 {
@@ -193,12 +230,31 @@ namespace Caidas2
                 }
 
                 spriteBatch.Draw(caja, new Vector2(100, 350), Color.White);
+<<<<<<< HEAD
+                spriteBatch.Draw(otraCaja, new Vector2(200, 350), Color.White);
+            }
+            else
+            {
+                if (noDraw)
+                {
+                    GraphicsDevice.Clear(Color.Orange);
+                    spriteBatch.Draw(bien, new Vector2(200, 200), Color.White);
+                }
+                if (malTocado)
+                {
+                    GraphicsDevice.Clear(Color.Orange);
+                    spriteBatch.Draw(mal, new Vector2(200, 200), Color.White);
+                }
+            }
+           
+=======
             }
             else
             {
                 GraphicsDevice.Clear(Color.Orange);
                 spriteBatch.Draw(bien, new Vector2(200, 200), Color.White);
             }
+>>>>>>> origin/master
             spriteBatch.Draw(repeat, new Vector2(500, 10), Color.White);
             spriteBatch.End();
             base.Draw(gameTime);

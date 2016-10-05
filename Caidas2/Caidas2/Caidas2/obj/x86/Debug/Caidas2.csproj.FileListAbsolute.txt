@@ -16,3 +16,18 @@ C:\Users\c\Desktop\Caidas\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Caidas2.exe
 C:\Users\c\Desktop\Caidas\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Caidas2.pdb
 C:\Users\c\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\Bien.xnb
 C:\Users\c\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\repeat.xnb
+<<<<<<< HEAD
+D:\Users\41614549.ALMAGRO.000\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\a.xnb
+D:\Users\41614549.ALMAGRO.000\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\caja.xnb
+D:\Users\41614549.ALMAGRO.000\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\Bien.xnb
+D:\Users\41614549.ALMAGRO.000\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\repeat.xnb
+D:\Users\41614549.ALMAGRO.000\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Caidas2.exe
+D:\Users\41614549.ALMAGRO.000\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Caidas2.pdb
+D:\Users\41614549.ALMAGRO.000\Desktop\Caidas\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Caidas2.csprojResolveAssemblyReference.cache
+D:\Users\41614549.ALMAGRO.000\Desktop\Caidas\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\Users\41614549.ALMAGRO.000\Desktop\Caidas\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Caidas2.exe
+D:\Users\41614549.ALMAGRO.000\Desktop\Caidas\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Caidas2.pdb
+D:\Users\41614549.ALMAGRO.000\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cancel.xnb
+D:\Users\41614549.ALMAGRO.000\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\caja2.xnb
+=======
+>>>>>>> origin/master
